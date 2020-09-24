@@ -10,11 +10,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Home />
-        <Sidebar />
+        <Sidebar name="Asha" gender="female" />
+        <Sidebar name="Rahul" gender="male" />
+        <Sidebar name="Kapil" gender="male" />
         <Contact />
-        <About />
-        <h5>Hello Sachin</h5>
-        <h6>Hello Mania</h6>  
+        <About name="Sachin" nickName="Giri" />
+        <About name="Sweta" nickName="Lattu" />
+        <About name="Myra" nickName="Shona" />
       </header>
     </div>
   );
