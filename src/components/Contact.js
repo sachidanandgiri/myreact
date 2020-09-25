@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Contact = () => {
+const Contact = ({name, nickName}) => {
     return(
-        <h3>Hello Rahul</h3>
+        <h3>
+            Hello {name} a.k.a {nickName}
+        </h3>
     )
 }
 
